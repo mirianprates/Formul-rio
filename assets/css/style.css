@@ -197,7 +197,37 @@ body{
         width: 100%;
     }
 
+    .form-header{
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-group{
+        padding: 0;
+    }
+
+    .input-box{
+        margin: 0.2rem 0;
+        padding: 0.6rem 0rem;
+    }
+
     .gender-group{
     flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .image img{
+        width: 30%;
+    }
+    .form-header{
+        margin-bottom: 1.8rem;
+    }
+
+    .input-box{
+        margin: 0;
+        padding: 0.1rem 0rem;
     }
 }
